@@ -10,7 +10,6 @@ body {
 
 #navbar {
     position: fixed;
-    display: flex;
     align-items: center;
     background: none;
     margin-left: -50px;
