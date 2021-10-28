@@ -24,7 +24,7 @@
 <body>
     <div class="header">
         <div class="container">
-            <div class="navbar">
+            <div class="navbar" id="navbar">
                 <div class="logo">
                     <h1>Anzhar</h1>
                 </div>
@@ -37,7 +37,7 @@
                         <li><a href="">Account</a></li>
                     </ul>
                 </nav>
-                <img src="image/cart.png" alt="">
+                <!-- <img src="image/cart.png" alt=""> -->
                 <img src="image/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
             </div>
             <div class="row">
@@ -46,7 +46,7 @@
                     <p>Success isn't always about greatness. It's about consistency. Consistent <br> hard work gains success. Greatness will come.</p>
                     <a href="" class="btn">Explore Now &#8594</a>
                 </div>
-                <div class="col-2">
+                <div class="col-2" id="pngback">
                     <img src="image/image1.jpg" alt="">
                 </div>
             </div>
@@ -377,18 +377,7 @@
         </div>
     </div>
 
-    <script>
-        var MenuItems = document.getElementById("menuItem");
-        MenuItems.style.maxHeight = "0px";
-
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px";
-            } else {
-                MenuItems.style.maxHeight = "0px";
-            }
-        }
-    </script>
+    <script src="style.js"></script>
 
 </body>
 <!-- 01:20:12 -->

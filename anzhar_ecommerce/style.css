@@ -8,6 +8,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background: none;
+    margin-left: -30px;
+    width: 100%;
+    top: 5px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -16,7 +26,7 @@ body {
 
 nav {
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 
 nav ul {
@@ -127,7 +137,7 @@ p {
 .tittle {
     text-align: center;
     margin: 0 auto 80px;
-    position: relative;
+    /* position: relative; */
     line-height: 60px;
     color: #555;
 }
@@ -138,7 +148,7 @@ p {
     width: 80px;
     height: 5px;
     border-radius: 5px;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     left: 48%;
     transform: translateY(-50%);
@@ -298,6 +308,9 @@ ul {
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
+    }
+    #pngback {
+        visibility: hidden;
     }
     nav ul li {
         display: block;
